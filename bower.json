@@ -1,0 +1,27 @@
+{
+  "name": "purescript-undefinable",
+  "authors": [
+    "Konstantin Zudov <co@zudov.me>"
+  ],
+  "description": "A very simple library for dealing with undefined in foreign libraries",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "purescript-maybe": "^0.3.0",
+    "purescript-functions": "^0.1.0",
+    "purescript-unsafe-coerce": "~0.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/zudov/purescript-undefined.git"
+  },
+  "devDependencies": {
+    "purescript-assert": "~0.1.1"
+  }
+}
